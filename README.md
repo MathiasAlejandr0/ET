@@ -1,11 +1,11 @@
-## My Works App
+# My Works App
 
-# con esta app podras solicitar distintos tipos de servicio para tu hogar
+## con esta app podras solicitar distintos tipos de servicio para tu hogar
 
-# instalacion:
-# clonar repositorio desde:
+## instalacion:
+## clonar repositorio desde:
  https://github.com/MathiasAlejandr0/ET.git
-# instalar dependencias:
+## instalar dependencias:
     "@angular/animations": "^18.2.13",
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
@@ -32,5 +32,5 @@
     "@types/google-maps": "^3.2.6",
     "@types/google.maps": "^3.58.1",
     "@types/googlemaps": "^3.43.3"
-# pruebas de karma y jazmin
+## pruebas de karma y jazmin
     ![Image Alt](https://github.com/MathiasAlejandr0/ET/blob/1e663b111ecb1f8aa251574394f5c2b62f0ee37e/pruebas_karmajazmin.png)
