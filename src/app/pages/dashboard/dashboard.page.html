@@ -1,0 +1,65 @@
+<ion-content class="dashboard-container">
+  <!-- Encabezado -->
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>My Works App</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Buscador -->
+  <ion-searchbar placeholder="¿Qué servicio buscas?"></ion-searchbar>
+
+  <!-- Grid de Servicios -->
+  <div class="services-grid">
+    <div class="service-card" (click)="goToMap('constructor')">
+      <ion-icon name="construct-outline"></ion-icon>
+      <p>Constructor</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('cerrajero')">
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <p>Cerrajero</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('gasfiter')">
+      <ion-icon name="flame-outline"></ion-icon>
+      <p>Gasfiter</p>
+    </div>
+
+    <!-- Otros servicios existentes -->
+    <div class="service-card" (click)="goToMap('home')">
+      <ion-icon name="home-outline"></ion-icon>
+      <p>Home</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('cuidadores')">
+      <ion-icon name="heart-outline"></ion-icon>
+      <p>Cuidadores</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('belleza')">
+      <ion-icon name="cut-outline"></ion-icon>
+      <p>Belleza</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('mascotas')">
+      <ion-icon name="paw-outline"></ion-icon>
+      <p>Mascotas</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('deportes')">
+      <ion-icon name="fitness-outline"></ion-icon>
+      <p>Deportes</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('clases')">
+      <ion-icon name="school-outline"></ion-icon>
+      <p>Clases</p>
+    </div>
+
+    <div class="service-card" (click)="goToMap('otros')">
+      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+      <p>Otros</p>
+    </div>
+  </div>
+</ion-content>

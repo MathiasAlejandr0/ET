@@ -1,0 +1,71 @@
+.professional-map-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  
+    #map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  
+    .professionals-container {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .professional-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      padding: 15px;
+      width: 250px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      .professional-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-right: 15px;
+        background-color: var(--ion-color-primary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+  
+      .professional-details {
+        flex-grow: 1;
+  
+        h3 {
+          margin: 0;
+          font-weight: bold;
+        }
+  
+        .rating {
+          display: flex;
+          align-items: center;
+          color: #ffc107;
+  
+          ion-icon {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
